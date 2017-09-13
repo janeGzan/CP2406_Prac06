@@ -1,9 +1,9 @@
 public class DebugPlay
 {
-   protected String title;
-   protected String author;
+   String title;
+   String author;
 
-   public DebugPlay(String title, String author)
+   DebugPlay(String title, String author)
    {
       this.title = title;
       this.author = author;

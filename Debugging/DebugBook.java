@@ -1,8 +1,8 @@
 public class DebugBook
 {
-   protected int pages;
+    int pages;
 
-    public DebugBook(int pages) {
+    DebugBook(int pages) {
 
         this.pages = pages;
     }

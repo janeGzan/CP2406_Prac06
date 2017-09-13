@@ -1,8 +1,8 @@
 public class DebugCustomer
 {
-    protected int idNumber;
-    protected String name;
-    protected double creditLimit;
+    private int idNumber;
+    private String name;
+    double creditLimit;
     public DebugCustomer(int id, String name, double credit)
     {
 
@@ -11,7 +11,7 @@ public class DebugCustomer
        this.creditLimit = credit;
     }
 
-    public DebugCustomer() {
+    DebugCustomer() {
         this.idNumber = 0;
         this.name = "";
         this.creditLimit = 0;

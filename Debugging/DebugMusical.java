@@ -1,6 +1,6 @@
 public class DebugMusical extends DebugPlay
 {
-   protected String composer;
+   private String composer;
 
    DebugMusical(String title, String author, String comp)
    {

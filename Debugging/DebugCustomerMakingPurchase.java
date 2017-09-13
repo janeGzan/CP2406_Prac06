@@ -7,11 +7,7 @@ public class DebugCustomerMakingPurchase extends DebugCustomer
                                 String name, double credit, double purchAmount) {
         super();
         amountOfPurchase = purchAmount;
-        if (amountOfPurchase > creditLimit) {
-            overLimit = true;
-        } else {
-            overLimit = false;
-        }
+        overLimit = amountOfPurchase > creditLimit;
     }
     @Override
     public void display()

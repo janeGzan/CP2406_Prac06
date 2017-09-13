@@ -1,5 +1,5 @@
 import javax.swing.*;
-public class DebugPhoneBook extends DebugBook
+class DebugPhoneBook extends DebugBook
 {
    private String area;
    private String size;
@@ -13,7 +13,7 @@ public class DebugPhoneBook extends DebugBook
       else
          size = "small";
    }
-   public void display()
+   void display()
    {
       JOptionPane.showMessageDialog(null,"The phone book for " + area +
          " has " + this.pages + " pages.\nThat is a " +

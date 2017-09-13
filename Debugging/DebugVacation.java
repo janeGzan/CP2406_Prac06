@@ -1,6 +1,6 @@
 public class DebugVacation
 {
-   private int days;
+   int days;
    public DebugVacation()
    {
       days = 10;

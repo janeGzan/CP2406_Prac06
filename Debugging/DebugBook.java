@@ -1,12 +1,13 @@
 public class DebugBook
 {
    protected int pages;
-   public void DebugBook(int pgs)
-   {
-      pages = pgs;
-   }
+
+    public DebugBook(int pages) {
+
+        this.pages = pages;
+    }
    public int getPages()
    {
-      return pgs;
+      return this.pages;
    }
 }
